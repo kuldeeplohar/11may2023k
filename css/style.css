@@ -1,0 +1,64 @@
+div.k1{
+    height:200px;
+    border:2px dashed red;
+}
+.k1 > div:first-child{
+    background-color: brown;
+}
+    
+.k1 > div:nth-child(2){
+    background-color: blueviolet;
+}
+    
+.k1 > div:last-child{
+    background-color: hotpink;
+}
+    
+div > div.col{
+    height:100%;
+    border:1px dashed #000;
+}
+.k2{
+    height:200px;
+    border:1px dashed black;
+} 
+.k2 > div.col{
+    height:200px;
+    border:1px dashed red;
+}
+.k2 >div:first-child{
+    height:200px;
+    background-color: blue;
+}
+.k2 >div:nth-child(2){
+    height:200px;
+    background-color: red;
+}
+.k2 >div:nth-child(3){
+    height:200px;
+    background-color: green;
+}
+.k2 >div:nth-child(4){
+    height:200px;
+    background-color: rgb(255, 0, 140);
+}
+.k3 >div:first-child{
+    height:200px;
+    background-color: blue;
+}
+.k3 >div:nth-child(2){
+    height:200px;
+    background-color: red;
+}
+.k3 >div:nth-child(3){
+    height:200px;
+    background-color: green;
+}
+.k3 >div:nth-child(4){
+    height:200px;
+    background-color: rgb(255, 0, 140);
+}
+.k3 >div:last-child{
+    height:200px;
+    background-color: brown;
+}
